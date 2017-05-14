@@ -3,8 +3,8 @@ module NQueen (
   ) where
 
 -- | Run n-queen program
-run :: Int -> IO ()
-run n = print $ queensN n
+run :: Int -> [[Int]]
+run = queensN
 
 
 safe
@@ -14,9 +14,9 @@ safe
   -> Bool
 safe _ [] _ = True
 safe x (x1:xs) n =
-  x /= x1
-  && x /= x1 + n && x /= x1 -n
-  && safe x xs (n + 1)
+    x /= x1
+    && x /= x1 + n && x /= x1 -n
+    && safe x xs (n + 1)
 
 queensN :: Int -> [[Int]]
 queensN n = queens n

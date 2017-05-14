@@ -22,4 +22,5 @@ opts = info (cmdParam <**> helper)
 main :: IO ()
 main = do
     opt <- execParser opts
-    NQueen.run $ n opt
+    print $ NQueen.run $ n opt
+    return ()
