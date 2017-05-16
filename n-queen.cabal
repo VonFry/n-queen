@@ -3,7 +3,7 @@
 
 name:                n-queen
 version:             0.1.0.0
--- synopsis:
+synopsis:            n queen pullze
 description:         A haskell exercise code for n-queen pullze.
 homepage:            https://github.com/VonFry/n-queen
 license:             BSD3
