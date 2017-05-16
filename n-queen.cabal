@@ -15,7 +15,7 @@ category:            Codec
 build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
-bug-reports: http://hackage.haskell.org/trac/hackage/issues
+bug-reports:  https://github.com/VonFry/n-queen/issues
 Tested-With:  GHC == 8.0.2
 
 source-repository    head
