@@ -5,6 +5,7 @@ name:                n-queen
 version:             0.1.0.0
 -- synopsis:
 description:         A haskell exercise code for n-queen pullze.
+homepage:            https://github.com/VonFry/n-queen
 license:             BSD3
 license-file:        LICENSE
 author:              Vonfry
@@ -14,6 +15,10 @@ category:            Codec
 build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
+bug-reports: http://hackage.haskell.org/trac/hackage/issues
+source-repository:   head
+  type:     github
+  location: https://github.com/VonFry/n-queen
 
 Tested-With:  GHC == 8.0.2
 
