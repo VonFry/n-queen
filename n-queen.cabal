@@ -4,13 +4,13 @@
 name:                n-queen
 version:             0.1.0.0
 -- synopsis:
--- description:
+description:         A haskell exercise code for n-queen pullze.
 license:             BSD3
 license-file:        LICENSE
 author:              Vonfry
 maintainer:          vonfry314@icloud.com
 -- copyright:
--- category:
+category:            Codec
 build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
