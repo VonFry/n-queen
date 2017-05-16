@@ -16,11 +16,11 @@ build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 bug-reports: http://hackage.haskell.org/trac/hackage/issues
-source-repository:   head
+Tested-With:  GHC == 8.0.2
+
+source-repository    head
   type:     github
   location: https://github.com/VonFry/n-queen
-
-Tested-With:  GHC == 8.0.2
 
 executable n-queen
   main-is:             Main.hs
